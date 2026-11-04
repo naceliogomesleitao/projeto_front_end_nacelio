@@ -1,13 +1,21 @@
+import Banner from "../components/banner";
+import Destaques from "../components/destaques";
+import Icones from "./icones";
+
 const Home = () => {
-    return ( 
+  return ( 
+<>
 
-        <>
-        
-        <h1>Home</h1>
-        
-        </>
+<Banner />
+<Destaques />
+<Icones />
 
-     );
+
+
+</>
+
+
+   );
 }
  
 export default Home;

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import styled from "styled-components";
 
 // Container
@@ -6,7 +7,7 @@ const FooterContainer = styled.footer`
   padding: 60px 100px 30px 100px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 0px;
   font-family: 'Inter', sans-serif;
   color: #ffffff;
 `;
@@ -51,6 +52,17 @@ const SocialIcons = styled.div`
 
 // títulos das colunas
 const NavColumn = styled.div`
+min-width: 130px;
+.cat{
+    font-size: 14px;
+    color: var(--white); 
+    text-decoration: none; 
+    cursor: pointer;
+    line-height: 24px;
+    transition: opacity 0.2s, color 0.2s;
+    display: inline-block;
+
+}
   h4 {
     font-size: 16px;
     font-weight: 600;
@@ -83,18 +95,19 @@ const NavColumn = styled.div`
 // Copyright
 const Hr = styled.hr`
   border: 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin: 0;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  margin: 40px 0 20px 0;
 `;
 
 const Copyright = styled.div`
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   color: #ffffff;
-  opacity: 0.5;
+  
+
 `;
 
-//Logo
+//Footer
 const Footer = () => {
   return (
     <FooterContainer>
@@ -133,7 +146,7 @@ const Footer = () => {
         <NavColumn>
           <h4>Categorias</h4>
           <ul>
-            <li>Camisetas</li>
+            <li><NavLink className="cat">Camisetas</NavLink></li>
             <li>Calças</li>
             <li>Bonés</li>
             <li>Headphones</li>
@@ -153,6 +166,7 @@ const Footer = () => {
       </FooterBlack>
 
       <Hr />
+      
       <Copyright>© 2026 Digital College</Copyright>
     </FooterContainer>
   );
