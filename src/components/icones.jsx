@@ -76,11 +76,11 @@ const CategoryItem = styled.div`
 const Icones = () => {
   // Lista de dados para renderizar os ícones dinamicamente e deixar o código limpo
   const categories = [
-    { id: 1, name: "Camisetas", icon: "src/assets/icon-camiseta.svg" },
-    { id: 2, name: "Calças", icon: "src/assets/icon-calca.svg" },
-    { id: 3, name: "Bonés", icon: "src/assets/icon-bone.svg" },
-    { id: 4, name: "Headphones", icon: "src/assets/icon-headphones.svg" },
-    { id: 5, name: "Tênis", icon: "src/assets/icon-tenis.svg" },
+    { id: 1, name: "Camisetas", icon: "src/assets/blusa.png" },
+    { id: 2, name: "Calças", icon: "src/assets/calca.png" },
+    { id: 3, name: "Bonés", icon: "src/assets/bone.png" },
+    { id: 4, name: "Headphones", icon: "src/assets/fone.png" },
+    { id: 5, name: "Tênis", icon: "src/assets/tenis.png" },
   ];
 
   return (

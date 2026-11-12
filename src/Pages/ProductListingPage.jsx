@@ -1,16 +1,14 @@
-import { useParams } from "react-router";
+import Categoria from "../components/Categoria";
 
 const ProductListingPage = () => {
-
-    const {id, nome} = useParams ();
-
-    return (
-
-        <>
-        <h1>Produto {id} {nome}</h1>
-      
-        </>
-      );
-}
  
+  return (
+   <>
+   <Categoria />
+    
+   </>
+   
+  );
+};
+
 export default ProductListingPage;

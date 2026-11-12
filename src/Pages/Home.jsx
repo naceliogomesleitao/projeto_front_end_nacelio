@@ -1,6 +1,9 @@
 import Banner from "../components/banner";
 import Destaques from "../components/destaques";
-import Icones from "./icones";
+import Especial from "../components/Especial";
+import Icones from "../components/icones";
+import Ofertas from "../components/Ofertas";
+
 
 const Home = () => {
   return ( 
@@ -9,6 +12,9 @@ const Home = () => {
 <Banner />
 <Destaques />
 <Icones />
+<Ofertas />
+<Especial />
+
 
 
 

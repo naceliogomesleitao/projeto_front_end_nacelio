@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+//import { NavLink } from "react-router";
 import styled from "styled-components";
 
 // Container
@@ -146,7 +146,8 @@ const Footer = () => {
         <NavColumn>
           <h4>Categorias</h4>
           <ul>
-            <li><NavLink className="cat">Camisetas</NavLink></li>
+            {/*<li><NavLink className="cat">Camisetas</NavLink></li>*/}
+            <li>Camisetas</li>
             <li>Calças</li>
             <li>Bonés</li>
             <li>Headphones</li>
