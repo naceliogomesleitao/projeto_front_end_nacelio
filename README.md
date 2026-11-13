@@ -93,5 +93,5 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 Desenvolvido por **Nacélio Gomes Leitão**.
 
-[![GitHub](https://shields.io)](https://github.com)
-[![LinkedIn](https://shields.io)](https://linkedin.com)
+[![GitHub](https://github.com/naceliogomesleitao/projeto_front_end_nacelio.git)
+[![LinkedIn](www.linkedin.com/in/nacelio-leitao-b80940328)
