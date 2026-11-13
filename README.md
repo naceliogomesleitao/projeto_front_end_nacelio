@@ -1,12 +1,5 @@
 # Drip Store
 
-![Status do Projeto](https://shields.io)
-![React](https://shields.io)
-![Vite](https://shields.io)
-![Styled Components](https://shields.io)
-![React Router](https://shields.io)
-![License](https://shields.io)
-
 ## Sobre o Projeto
 
 A **Drip Store** é uma aplicação front-end de um e-commerce completo voltado para moda urbana e artigos esportivos (tênis, camisetas, calças, bonés e acessórios). 
