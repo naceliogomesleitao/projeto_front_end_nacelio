@@ -6,7 +6,7 @@ A **Drip Store** é uma aplicação front-end de um e-commerce completo voltado 
 
 Este projeto foi desenvolvido com base no protótipo oficial disponibilizado pela **Digital College**, colocando em prática a criação de componentes reutilizáveis com **React 19**, estilização isolada com **Styled Components** e gerenciamento de rotas dinâmicas com **React Router**.
 
-**Protótipo no Figma:** [Acesse o layout aqui](https://figma.com)
+**Protótipo no Figma:** [Acesse o layout aqui](https://www.figma.com/design/nUk0ihM3x4u8JQtxUoAEJf/DRIP-STORE---DIGITAL-COLLEGE--Copy-?node-id=332-2951&t=QxZ5REsJUBP59OYM-0)
 
 ---
 
